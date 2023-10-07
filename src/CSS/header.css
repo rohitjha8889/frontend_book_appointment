@@ -1,0 +1,27 @@
+body {
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar {
+    background: #F6F9F9;
+    font-size: 1.1rem;
+
+}
+
+.btn {
+    background-color: #49DEE0;
+    color: #F6F9F9;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.nav-link:hover {
+    color: #49DEE0;
+}
+
+.btn:hover {
+    background: #01578C;
+    color: #F6F9F9;
+}

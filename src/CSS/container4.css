@@ -1,0 +1,156 @@
+.container4{
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    padding-top: 120px;
+    background: #F6F9F9;
+
+    padding-bottom: 100px;
+
+}
+
+.container4_top_heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container4 hr {
+    height: 15px;
+    width: 100px;
+    margin: 0 auto;
+
+}
+
+.container4_box{
+    margin: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    row-gap: 50px;
+    column-gap: 50px;
+    
+}
+
+.container4_box1{
+    background: #ffffff;
+    /* height: 100%; */
+    grid-row: 1 / span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    border-radius: 20px;
+}
+
+.container4_box1:hover{
+    border: 4px solid #F6F9F9;
+    box-shadow: 8px 8px 20px #becece, 
+    -8px -8px 20px #becece;
+}
+
+
+.container4_box1 img{
+    border-radius: 50%;
+}
+
+.container4_para{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.container4_box_heading{
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.container4_icon i{
+    color: #F0AD4E;
+}
+
+
+
+.container4_box2{
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    border-radius: 20px;
+
+}
+
+.container4_content_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4_image_box img{
+    border-radius: 50%;
+}
+
+
+.container4_box2:hover{
+    border: 4px solid #F6F9F9;
+    box-shadow: 8px 8px 20px #becece, 
+    -8px -8px 20px #becece;
+}
+
+
+
+.container4_box3{
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    border-radius: 20px;
+}
+
+
+.container4_box3:hover{
+    border: 4px solid #F6F9F9;
+    box-shadow: 8px 8px 20px #becece, 
+    -8px -8px 20px #becece;
+}
+
+
+.container4_bottom{
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+   
+}
+
+.container4_bottom_heading{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.container4_bottom_icon i{
+    font-size: 25px;
+    margin-right: 20px;
+    background: #49DEE0;
+    margin-top: 30px;
+    color: #F6F9F9;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container4_bottom_icon i:hover{
+    background: #01578C;
+}
+

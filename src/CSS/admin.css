@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    width: 100%;
+}
+
+.left-component{
+    width: 15%;
+}
+
+.right-component{
+    /* border: 2px solid red; */
+    width: 90%;
+}

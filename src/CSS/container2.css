@@ -1,0 +1,40 @@
+.container2 {
+    width: 98%;
+    height: 200px;
+    background: #01578C;
+    margin-top: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13px;
+    /* border: 2px solid yellow; */
+
+}
+
+.container2_left{
+    /* margin: 50px; */
+    /* border: 2px solid green; */
+    width: 60%;
+}
+
+.container2_heading{
+    color: #F6F9F9;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container2_para{
+    font-size: 16;
+    color: #F6F9F9;
+}
+
+.container2_right{
+    /* margin: 80px; */
+}
+
+
+.container2_button:hover{
+    background: #F6F9F9;
+    color: #01578C;
+}
